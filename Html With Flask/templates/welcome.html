@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.name }}! 🎉</h1>
+    <p>Email: {{ request.form.get('email', '') }}</p>
+    <p>Domain: {{ user.domain }}</p>
+    <p>Age: {{ user.age }}</p>
+    <a href="/enhanced_login/static">Home</a>
+</body>
+</html>
